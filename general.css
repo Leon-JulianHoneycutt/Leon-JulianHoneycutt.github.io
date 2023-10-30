@@ -5,6 +5,9 @@
   max-width: 40ch;
 }
 
+.jumbotronTextShadow{
+  text-shadow: 3px 3px #e8a941;
+}
 .mainBackgroundColor{
   background-color: #cbb77e;
 }
@@ -30,7 +33,8 @@
 .footerTextColor{
   color: #fefdee;
 }
-/* images */
+
+
 .sizing{
   object-fit: contain;
 }

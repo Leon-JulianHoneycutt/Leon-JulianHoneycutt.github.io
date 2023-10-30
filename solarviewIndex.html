@@ -9,14 +9,22 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="general.css">
+  <style>
+    .solarViewDesignFont{
+      font-family: 'Agbalumo', sans-serif;
+    }
+  </style>
 </head>
 
 <body>
   <header class="sticky-top">
     <nav class="navbar navbar-expand-md backgroundNav border-bottom border-5 border-light">
       <div class="container-fluid">
-        <a class="navbar-brand navTextColor" href="Index.html"><img class="sizing smaller"
+        <a class="navbar-brand navTextColor solarViewDesignFont" href="solarviewIndex.html"><img class="sizing smaller"
             src="MidtermImages/logo transparent.png" alt="SolarViewDesign Logo">SolarViewDesign</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +33,7 @@
         <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link navTextColor" aria-current="page" href="Index.html">Home</a>
+              <a class="nav-link navTextColor" aria-current="page" href="solarviewIndex.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link navTextColor" href="products.html">Products</a>
@@ -52,8 +60,8 @@
     <div class="container-fluid py-4">
       <div class="p-5 mb-4 homeJumbotronImage rounded-3">
         <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold jumbotronTextColor">SolarViewDesign</h1>
-          <p class="col-md-8 fs-4 jumbotronTextColor">Using a series of utilities, you can create this jumbotron, just
+          <h1 class="display-5 fw-bold jumbotronTextColor jumbotronTextShadow solarViewDesignFont">SolarViewDesign</h1>
+          <p class="col-md-8 fs-4 jumbotronTextColor jumbotronTextShadow">Using a series of utilities, you can create this jumbotron, just
             like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and
             restyle it to your liking.</p>
           <a href="mailto:info@solarviewdesign.com" class="btn moveUpBtnAboutUS btn-lg">Contact Us</a>
@@ -64,13 +72,13 @@
     <!-- Start About Us -->
     <div class=" container-fluid mt-3 mb-3">
       <div class="container-fluid backgroundContainers  rounded-4 pb-3 d-flex flex-column">
-        <h2 class="align-self-center mb-3 navTextColor">About Us</h2>
+        <h2 class="align-self-center mb-3 navTextColor solarViewDesignFont">About Us</h2>
         <!-- Start Gallery -->
         <div
           class="container-fluid containersOnTopOfBackgroundContainers rounded-4 pb-3 pt-3 pt-md-0 mb-4  d-flex flex-column">
           <div class="container-fluid row mb-5">
             <div class=" d-flex flex-column justify-content-center col-md-6">
-              <h2 class="ms-md-4 ms-lg-5 ms-2">We Are SolarViewDesign</h2>
+              <h2 class="ms-md-4 ms-lg-5 ms-2 solarViewDesignFont">We Are SolarViewDesign</h2>
               <p class="galleryDescription ms-md-4 ms-lg-5 ms-2">We provide service to the Greater St.Louis Area along
                 side Souther Illinois Market. While being located in Edwardville, IL.
               </p>
@@ -103,7 +111,7 @@
           class="container-fluid containersOnTopOfBackgroundContainers rounded-4 pb-3 pt-3 pt-md-0  d-flex flex-column">
           <div class="container-fluid row mb-5">
             <div class=" d-flex flex-column justify-content-center col-md-6">
-              <h2 class="ms-md-4 ms-lg-5 ms-2">Gallery Introduction</h2>
+              <h2 class="ms-md-4 ms-lg-5 ms-2 solarViewDesignFont">Gallery Introduction</h2>
               <p class="galleryDescription ms-md-4 ms-lg-5 ms-2"> We have a gallery of wonderful projects in which we
                 want to share a few with you now. If you wanna see our full list of projects, <strong>click
                   below.</strong>
@@ -243,7 +251,7 @@
             <a href="#main"><img class="footerImage" src="MidtermImages/logo transparent.png" alt="PLACEHOLDER"></a>
           </div>
           <div class="col-md-4">
-            <h5>SolarViewDesign</h5>
+            <h5 class="solarViewDesignFont">SolarViewDesign</h5>
             <ul class="nav flex-column">
               <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 footerTextColor footerHoverColor">Number(PLACEHOLDER)</a></li> -->
               <li class="nav-item mb-2"><a href="mailto:info@solarviewdesign.com" class="nav-link p-0 footerTextColor footerHoverColor">info@solarviewdesign.com</a></li>
