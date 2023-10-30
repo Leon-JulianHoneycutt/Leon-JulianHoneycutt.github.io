@@ -1,0 +1,115 @@
+.galleryDescription{
+  max-width: 60ch;
+}
+.shortDescription{
+  max-width: 40ch;
+}
+
+.mainBackgroundColor{
+  background-color: #cbb77e;
+}
+.backgroundContainers{
+  background-color: #262626;
+}
+.containersOnTopOfBackgroundContainers{
+  background-color: #e8a941;
+}
+.cardBackgroundColors{
+  background-color: #cbb77e;
+}
+.backgroundNav{
+  background-color: #262626;
+  opacity: .99;
+}
+.navTextColor{
+  color: #e8a941;
+}
+.jumbotronTextColor{
+  color:#262626;
+}
+.footerTextColor{
+  color: #fefdee;
+}
+/* images */
+.sizing{
+  object-fit: contain;
+}
+.smaller{
+  width: 4rem;
+}
+.footerImage{
+  width: 10rem;
+}
+.homeJumbotronImage{
+  background-color: #262626;
+  background-image: url(MidtermImages/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.socialMediaIcons{
+  font-size: 2rem;
+}
+.instagram{
+  color:  #cd486b;
+}
+
+.borderColor{
+  border-bottom: solid 10px #e8a941;
+}
+
+.linksAssist{
+  text-decoration: none;
+  color: black;
+
+  /* transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s; */
+
+  transition: transform 0.2s;
+}
+.linksAssist:hover{
+  color: white;
+  transform: translateY(-10px);
+}
+
+.moveUpBtn{
+  transition: all 0.3s;
+  background-color: black;
+  color: white;
+}
+
+.moveUpBtn:hover{
+  transform: translateY(-5px);
+  background-color: #e8a941;
+}
+
+.moveUpBtnAboutUS{
+  transition: all 0.3s;
+  background-color: black;
+  color: #e8a941;
+}
+
+.moveUpBtnAboutUS:hover{
+  transform: translateY(-5px);
+  background-color: white;
+  color: #e8a941;
+}
+
+.footerHoverColor:hover{
+  color: #e8a941;
+}
+
+.moveUpBtnRC{
+  background-color: #e8a941;
+  color: white;
+  transition: all 0.3s;
+}
+
+.moveUpBtnRC:hover{
+  transform: translateY(-5px);
+  background-color: white;
+  color: #e8a941
+}
